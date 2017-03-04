@@ -142,7 +142,7 @@ open class SkyFloatingLabelTextField: UITextField {
     The default implementation converts the text to uppercase.
     */
     open var titleFormatter:((String) -> String) = { (text:String) -> String in
-        return text.uppercased()
+        return text
     }
 
     /**
